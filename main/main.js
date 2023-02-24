@@ -13,7 +13,7 @@ function submit() {
     p2.innerHTML = codeHtml
     //inserir o código em JS
     let codeJs = document.getElementById('codeJs').value
-    document.getElementById('jsUser'), innerHTML = codeJs
+    document.getElementById('jsUser').innerHTML = codeJs
 
     /*
     let codeJs = document.getElementById('codeJs').value
