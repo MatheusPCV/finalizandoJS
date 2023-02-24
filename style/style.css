@@ -1,15 +1,11 @@
 * {
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: 0;
     font-family: "Montserrat", sans-serif;
 }
-main{
-    position: absolute;
-    align-items: center;
-    left: 27vw;
-    top: 15vh;
-}
+
 body{
     width: 100vw;
     height: 100vh;
@@ -17,9 +13,18 @@ body{
     overflow: hidden;
     font-size: 17px;
 }
+
+main{
+    position: absolute;
+    align-items: center;
+    left: 27vw;
+    top: 15vh;
+}
+
 section{
     background:linear-gradient(241.29deg, #2D7474 10.31%, #5C0849 93.41%);
     position: relative;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     display: flex;
@@ -27,7 +32,7 @@ section{
     align-items: center;
     justify-content: center;
     background-color: lightgray;
-    padding: 0; 
+    padding: 20px; 
     width: 50vw;
     left: 25vw;
     border-radius: 20px;
@@ -40,6 +45,7 @@ textarea{
     padding: 8px;
     outline: 0;
     border: none;
+    color: black;
     box-shadow: 0 0 5px black;
 }
 input{
