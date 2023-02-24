@@ -45,7 +45,7 @@ body {
   background: var(--fundo);
   color: var(--texto);
 }
-main {
+#page2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
