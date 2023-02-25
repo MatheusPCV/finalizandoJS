@@ -21,6 +21,8 @@ function submit() {
     document.getElementById('jsUser').innerHTML = codeJs
 
     document.getElementById("link").setAttribute("href", "/style/style2.css")
+
+
     var button = document.createElement("button")
     button.addEventListener("click", reset)
     button.appendChild(document.createTextNode("RESET"))
@@ -44,6 +46,7 @@ function submit() {
         p2.style.display = "none"
 
         document.getElementById("link").setAttribute("href", "/style/style.css")
+        location.reload()
     /*
     let codeJs = document.getElementById('codeJs').value
     var tagScript = document.createElement("script").setAttribute("type", "text/javascript")

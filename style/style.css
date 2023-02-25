@@ -10,7 +10,7 @@ body {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(241.29deg, #5C0849 10.31%, #2D7474 93.41%);
-    /* overflow: hidden; */
+    overflow: hidden;
     font-size: 17px;
 }
 
