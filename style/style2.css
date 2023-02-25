@@ -185,3 +185,10 @@ input {
 #btnDiv:hover {
   transform: scale(110%);
 }
+button{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 10px;
+  left: 10px;
+}
