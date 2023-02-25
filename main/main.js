@@ -54,6 +54,7 @@ function reset() {
     p2.style.display = "none"
 
         document.getElementById("link").setAttribute("href", "/style/style.css")
+        location.reload()
     /*
     let codeJs = document.getElementById('codeJs').value
     var tagScript = document.createElement("script").setAttribute("type", "text/javascript")
