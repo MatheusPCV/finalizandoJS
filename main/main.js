@@ -29,6 +29,8 @@ function submit() {
     document.getElementById('jsUser').innerHTML = codeJs
 
     document.getElementById("link").setAttribute("href", "/style/style2.css")
+
+
     var button = document.createElement("button")
     button.addEventListener("click", reset)
     button.appendChild(document.createTextNode("RESET"))
@@ -51,7 +53,7 @@ function reset() {
     footer.style.display = "flex"
     p2.style.display = "none"
 
-    document.getElementById("link").setAttribute("href", "/style/style.css")
+        document.getElementById("link").setAttribute("href", "/style/style.css")
     /*
     let codeJs = document.getElementById('codeJs').value
     var tagScript = document.createElement("script").setAttribute("type", "text/javascript")
