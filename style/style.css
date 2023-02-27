@@ -57,8 +57,8 @@ section {
     justify-content: center;
     background-color: lightgray;
     padding: 20px;
-    width: 90%;
-    left: 3vw;
+    width: 88vw;
+    left: 4vw;
     border-radius: 15px;
     box-shadow: 5px 5px 15px whitesmoke;
     transition: 500ms linear;
@@ -97,8 +97,8 @@ section:hover{
 }
 
 textarea {
-    width: 500px;
-    height: 160px;
+    width: 40vw;
+    height: 26vh;
     border-radius: 12px;
     padding: 8px;
     outline: 0;
